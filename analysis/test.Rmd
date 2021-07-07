@@ -1,0 +1,16 @@
+---
+title: "test"
+author: "tkike"
+date: "2021-07-07"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+data(cars)
+plot(cars)
+```
+
